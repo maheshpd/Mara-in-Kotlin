@@ -14,18 +14,20 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".CompleteProfile">
+        </activity>
+        <activity android:name=".SignUp" />
+        <activity android:name=".SignIn">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".SignUp" />
-        <activity android:name=".SignIn" />
         <activity android:name=".Splash">
 
         </activity>
-        <activity android:name=".MainActivity" />
+        <activity android:name=".ui.main.MainActivity"
+            android:theme="@style/MainScreen"/>
     </application>
 
 </manifest>

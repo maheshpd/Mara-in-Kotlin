@@ -97,7 +97,7 @@
             android:background="@null"
             android:fontFamily="@font/abel_regular"
             android:hint="Password"
-            android:inputType="textPersonName"
+            android:inputType="textPassword"
             android:paddingStart="10dp" />
 
         <Button

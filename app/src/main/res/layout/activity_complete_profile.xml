@@ -110,7 +110,7 @@
             android:fontFamily="@font/abel_regular"
             android:gravity="start"
             android:paddingStart="20dp"
-            android:text="Button"
+            android:text="Select DOB"
             android:textColor="#000000" />
 
         <View
@@ -141,7 +141,7 @@
             android:background="#898C8F" />
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/completeBtn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
